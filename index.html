@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    
+    <section>
+
+        <div class="square">
+
+            <form>
+                <div id="opcoesEscolhas">
+                    <input type="radio" id="codificar" name="cifra" value="codificar">
+                    <label for="codificar"> Codificar </label>
+                    <input type="radio" id="decodificar" name="cifra" value="decodificar">
+                    <label for="decodificar"> Decodificar </label>
+                </div>
+
+                <label for="mensagem">Texto</label>
+                <input type="text" id="mensagem">
+                <select name="select">
+                    <option value="escolha"> Clique Aqui </option>
+                    <option value="valor1"> Cifra de César </option>
+                    <option value="valor2"> Base 64 </option>
+                </select>
+            </form> 
+
+            
+                <input id="submit" type="submit">
+                <label for="criptografia"> Criptografia </label>
+                <input type="text" id="criptografia">
+            
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

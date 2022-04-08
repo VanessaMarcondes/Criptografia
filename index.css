@@ -1,0 +1,82 @@
+body{
+    background-image: url(https://img.estadao.com.br/resources/jpg/2/3/1444755234232.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+section{
+    font-family: 'Bellerose';
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.square{
+    background-color: rgba(343,630,450,0.60);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    height: 650px;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 46%;
+    justify-content: space-around;
+}
+
+#opcoesEscolhas{
+    text-align: center;
+}
+ 
+@font-face {
+    font-family: 'Bellerose';
+    src: url(./Bellerose.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#submit{
+    font-size: 20px;
+    width: 100px;
+    color: black;
+    background-color: #D2B48C;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#submit:hover{
+    background-color: #CD853F;
+    color: black;
+}
+
+#mensagem{
+    background-color: #D2B48C;
+    color: black;
+}
+
+select{
+    font-size: 20px;
+    background-color: #D2B48C;
+    color: black;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+select:hover{
+    background-color: #CD853F;
+    color: black;
+}
+
+#criptografia{
+    background-color: #D2B48C;
+    color: black;
+    width: 59%;
+}
